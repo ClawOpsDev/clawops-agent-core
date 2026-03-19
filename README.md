@@ -9,11 +9,11 @@ Multi-modal AI agent for autonomous E2E browser testing.
 > **Goal:** Autonomous E2E browser testing using Multi-modal LLMs.
 
 ## 🚀 Overview
-ClawOps is an agentic framework designed to replace rigid Selenium/Playwright scripts with autonomous agents. By leveraging **Claude 4.6 (Anthropic)** and **Gemini 1.5 (Google)** via **Amazon Bedrock**, ClawOps can "see" a web UI, understand intent, and execute complex testing workflows without manual selectors.
+ClawOps is an agentic framework designed to replace rigid Selenium/Playwright scripts with autonomous agents. By leveraging **Claude 4.6 (Anthropic)** and **Gemini 3.1 (Google)** via **Amazon Bedrock**, ClawOps can "see" a web UI, understand intent, and execute complex testing workflows without manual selectors.
 
 ## 🛠️ Tech Stack
 - **Engine:** Playwright (Headless Node.js)
-- **Intelligence:** Anthropic Claude 3.5/4.6, Google Gemini 1.5 Pro
+- **Intelligence:** Anthropic Claude 4.6, Google Gemini 3.1 Pro
 - **Orchestration:** LangGraph / Custom Agentic Loops
 - **Cloud:** AWS (Bedrock, Lambda, S3)
 
